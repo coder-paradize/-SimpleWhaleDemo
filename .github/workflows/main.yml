@@ -4,6 +4,8 @@ on:
   push:
     branches: 
       - 'master'    
+    tags:
+      - 'v*'
 jobs:
   # This workflow contains a single job called "build"
   build:
